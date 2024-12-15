@@ -1,0 +1,76 @@
+<svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 600 600"
+            preserveAspectRatio="xMidYMid meet"
+            width="80"
+            height="80"
+          >
+            <ellipse
+              cx="300"
+              cy="300"
+              rx="140"
+              ry="280"
+              fill="none"
+              stroke="#0000FF"
+              stroke-width="10"
+            >
+              <animateTransform
+                attributeName="transform"
+                type="rotate"
+                from="0 300 300"
+                to="360 300 300"
+                dur="6s"
+                repeatCount="indefinite"
+              />
+            </ellipse>
+            <ellipse
+              cx="300"
+              cy="300"
+              rx="140"
+              ry="280"
+              fill="none"
+              stroke="#0000FF"
+              stroke-width="10"
+              transform="rotate(60 300 300)"
+            >
+              <animateTransform
+                attributeName="transform"
+                type="rotate"
+                from="60 300 300"
+                to="420 300 300"
+                dur="6s"
+                repeatCount="indefinite"
+              />
+            </ellipse>
+            <ellipse
+              cx="300"
+              cy="300"
+              rx="140"
+              ry="280"
+              fill="none"
+              stroke="#0000FF"
+              stroke-width="10"
+              transform="rotate(-60 300 300)"
+            >
+              <animateTransform
+                attributeName="transform"
+                type="rotate"
+                from="-60 300 300"
+                to="300 300 300"
+                dur="6s"
+                repeatCount="indefinite"
+              />
+            </ellipse>
+
+            <text
+              x="300"
+              y="350"
+              font-family="Arial, sans-serif"
+              font-size="120"
+              font-weight="bold"
+              fill="#FFFFFF"
+              text-anchor="middle"
+            >
+              TAG ICT
+            </text>
+          </svg>

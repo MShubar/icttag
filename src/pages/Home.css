@@ -1,0 +1,56 @@
+/* Style for the slick-prev and slick-next arrows */
+.slick-prev,
+.slick-next {
+  font-size: 30px; /* Increase size for better visibility */
+  color: #fff; /* White color for arrows */
+  border: none;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: background-color 0.3s; /* Smooth background transition */
+}
+
+/* Position the prev arrow on the left and next arrow on the right */
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next {
+  right: 10px;
+}
+
+/* Hover effect to make arrows stand out */
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: rgba(255, 255, 255, 0.8); /* Light background on hover */
+  color: #007bff; /* Change color on hover */
+}
+
+/* Optional: Style the arrows with icons (e.g., using FontAwesome) */
+.slick-prev:before,
+.slick-next:before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; /* Use the solid version of the icon */
+}
+/* Apply blur to non-active slides */
+.slick-slide {
+  transition: filter 0.3s ease-in-out; /* Smooth transition */
+  filter: blur(3px); /* Default blur for all slides */
+}
+
+/* Make the centered (active) slide sharp */
+.slick-center .slick-slide {
+  filter: blur(0); /* Remove blur on the active slide */
+}
+
+/* Optional: Style the arrows or adjust their size */
+.slick-prev,
+.slick-next {
+  font-size: 24px; /* Adjust arrow size */
+  color: white;
+}
