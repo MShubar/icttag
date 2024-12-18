@@ -2,8 +2,9 @@
             xmlns="http://www.w3.org/2000/svg"
             viewBox="0 0 600 600"
             preserveAspectRatio="xMidYMid meet"
-            width="80"
-            height="80"
+            width="70"
+            height="70"
+            style={{ marginRight: '10px' }} // Add spacing between SVG and text
           >
             <ellipse
               cx="300"
@@ -12,7 +13,7 @@
               ry="280"
               fill="none"
               stroke="#0000FF"
-              stroke-width="10"
+              strokeWidth="10"
             >
               <animateTransform
                 attributeName="transform"
@@ -30,7 +31,7 @@
               ry="280"
               fill="none"
               stroke="#0000FF"
-              stroke-width="10"
+              strokeWidth="10"
               transform="rotate(60 300 300)"
             >
               <animateTransform
@@ -49,7 +50,7 @@
               ry="280"
               fill="none"
               stroke="#0000FF"
-              stroke-width="10"
+              strokeWidth="10"
               transform="rotate(-60 300 300)"
             >
               <animateTransform
@@ -65,11 +66,11 @@
             <text
               x="300"
               y="350"
-              font-family="Arial, sans-serif"
-              font-size="120"
-              font-weight="bold"
+              fontFamily="Arial, sans-serif"
+              fontSize="120"
+              fontWeight="bold"
               fill="#FFFFFF"
-              text-anchor="middle"
+              textAnchor="middle"
             >
               TAG ICT
             </text>
